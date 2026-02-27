@@ -607,7 +607,7 @@ st.markdown("# 🏥 GP Practice List Size Dashboard")
 st.markdown(
     f"**Northern Ireland** · Quarterly data · "
     f"{'Demo mode' if use_sample else (f'{len(uploaded_files)} file(s) uploaded' if uploaded_files else f'{len(folder_csv_files)} file(s) from data/ folder')} · "
-    f"{len(quarters_sorted)} quarter(s) available"
+    f"{len(quarters_sorted)} quarter(s) available · Data sourced from OpenDataNI : https://admin.opendatani.gov.uk/dataset/gp-practice-list-sizes"
 )
 st.markdown("---")
 
